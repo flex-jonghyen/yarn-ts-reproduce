@@ -13,3 +13,5 @@
 .pnp.*
 
 dist
+.turbo
+node_modules

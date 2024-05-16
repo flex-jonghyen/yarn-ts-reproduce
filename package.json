@@ -5,6 +5,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "turbo": "^1.13.3",
     "typescript": "^5.4.5"
   }
 }
