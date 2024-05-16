@@ -14,7 +14,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@rep/baz@workspace:packages/baz":
+"@rep/baz@workspace:^, @rep/baz@workspace:packages/baz":
   version: 0.0.0-use.local
   resolution: "@rep/baz@workspace:packages/baz"
   dependencies:
@@ -27,6 +27,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@rep/foo@workspace:packages/foo"
   dependencies:
+    typescript: "npm:^5.4.5"
+  languageName: unknown
+  linkType: soft
+
+"@rep/qux@workspace:packages/qux":
+  version: 0.0.0-use.local
+  resolution: "@rep/qux@workspace:packages/qux"
+  dependencies:
+    "@rep/baz": "workspace:^"
     typescript: "npm:^5.4.5"
   languageName: unknown
   linkType: soft
