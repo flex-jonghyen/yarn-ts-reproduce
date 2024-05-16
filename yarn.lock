@@ -19,6 +19,7 @@ __metadata:
   resolution: "@rep/baz@workspace:packages/baz"
   dependencies:
     "@rep/bar": "workspace:^"
+    "@rep/foo": "workspace:^"
     typescript: "npm:^5.5.0-dev.20240515"
   languageName: unknown
   linkType: soft
