@@ -1,0 +1,10 @@
+{
+  "name": "yarn-typescript-reproduce",
+  "packageManager": "yarn@4.2.2",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
