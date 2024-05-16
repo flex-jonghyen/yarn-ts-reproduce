@@ -10,7 +10,7 @@ __metadata:
   resolution: "@rep/bar@workspace:packages/bar"
   dependencies:
     "@rep/foo": "workspace:^"
-    typescript: "npm:^5.4.5"
+    typescript: "npm:^5.5.0-dev.20240515"
   languageName: unknown
   linkType: soft
 
@@ -19,7 +19,7 @@ __metadata:
   resolution: "@rep/baz@workspace:packages/baz"
   dependencies:
     "@rep/bar": "workspace:^"
-    typescript: "npm:^5.4.5"
+    typescript: "npm:^5.5.0-dev.20240515"
   languageName: unknown
   linkType: soft
 
@@ -27,7 +27,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@rep/foo@workspace:packages/foo"
   dependencies:
-    typescript: "npm:^5.4.5"
+    typescript: "npm:^5.5.0-dev.20240515"
   languageName: unknown
   linkType: soft
 
@@ -36,7 +36,7 @@ __metadata:
   resolution: "@rep/qux@workspace:packages/qux"
   dependencies:
     "@rep/baz": "workspace:^"
-    typescript: "npm:^5.4.5"
+    typescript: "npm:^5.5.0-dev.20240515"
   languageName: unknown
   linkType: soft
 
@@ -111,23 +111,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.4.5":
-  version: 5.4.5
-  resolution: "typescript@npm:5.4.5"
+"typescript@npm:^5.5.0-dev.20240515":
+  version: 5.5.0-dev.20240515
+  resolution: "typescript@npm:5.5.0-dev.20240515"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/2954022ada340fd3d6a9e2b8e534f65d57c92d5f3989a263754a78aba549f7e6529acc1921913560a4b816c46dce7df4a4d29f9f11a3dc0d4213bb76d043251e
+  checksum: 10c0/52e467f584682a4415c405e030f758e135a41e1147a7c203addc731cd5cf06ddd931e9dced545eb5898776e5e4cc194969410656d09004a27f58c5912697d8a0
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.4.5#optional!builtin<compat/typescript>":
-  version: 5.4.5
-  resolution: "typescript@patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"
+"typescript@patch:typescript@npm%3A^5.5.0-dev.20240515#optional!builtin<compat/typescript>":
+  version: 5.5.0-dev.20240515
+  resolution: "typescript@patch:typescript@npm%3A5.5.0-dev.20240515#optional!builtin<compat/typescript>::version=5.5.0-dev.20240515&hash=b45daf"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/db2ad2a16ca829f50427eeb1da155e7a45e598eec7b086d8b4e8ba44e5a235f758e606d681c66992230d3fc3b8995865e5fd0b22a2c95486d0b3200f83072ec9
+  checksum: 10c0/b164eb7578c6310f4398920bc2a5b794907d5024c4f9c60b0818c653790185bd9047884e78ed169e87f3be247d72f4d7af7b05152fe90c74d9fdc360191f29cc
   languageName: node
   linkType: hard
 
@@ -136,6 +136,6 @@ __metadata:
   resolution: "yarn-typescript-reproduce@workspace:."
   dependencies:
     turbo: "npm:^1.13.3"
-    typescript: "npm:^5.4.5"
+    typescript: "npm:^5.5.0-dev.20240515"
   languageName: unknown
   linkType: soft
