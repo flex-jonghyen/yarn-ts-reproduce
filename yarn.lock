@@ -5,6 +5,14 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@rep/foo@workspace:packages/foo":
+  version: 0.0.0-use.local
+  resolution: "@rep/foo@workspace:packages/foo"
+  dependencies:
+    typescript: "npm:^5.4.5"
+  languageName: unknown
+  linkType: soft
+
 "typescript@npm:^5.4.5":
   version: 5.4.5
   resolution: "typescript@npm:5.4.5"
