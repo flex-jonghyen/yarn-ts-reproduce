@@ -6,5 +6,6 @@
       "dependsOn": ["clean", "^build"],
       "cache": false
     }
-  }
+  },
+  "globalDependencies": [".yarnrc.yml"]
 }
