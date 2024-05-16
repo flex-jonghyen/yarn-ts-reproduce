@@ -5,11 +5,20 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@rep/bar@workspace:packages/bar":
+"@rep/bar@workspace:^, @rep/bar@workspace:packages/bar":
   version: 0.0.0-use.local
   resolution: "@rep/bar@workspace:packages/bar"
   dependencies:
     "@rep/foo": "workspace:^"
+    typescript: "npm:^5.4.5"
+  languageName: unknown
+  linkType: soft
+
+"@rep/baz@workspace:packages/baz":
+  version: 0.0.0-use.local
+  resolution: "@rep/baz@workspace:packages/baz"
+  dependencies:
+    "@rep/bar": "workspace:^"
     typescript: "npm:^5.4.5"
   languageName: unknown
   linkType: soft
